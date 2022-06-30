@@ -18,7 +18,7 @@
     text-decoration: none;
     color: var(--white);
     font-family: 'Outfit', sans-serif;
-    font-size: 22px;
+   
     
 }
 
@@ -32,17 +32,22 @@
 }
 
 .card {
-    max-width: 450px;
-    height: 55%;
+    max-width: 400px;
+    height: 70%;
     background-color: var(--cardBg);
     padding: 35px;
     border-radius: 15px;
+    font-size: 12px;
     
+}
+
+.card-body {
+    font-size: 16px;
 }
 
 .image {
     width: 100%;
-    height: 17rem;
+    height: 275px;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -122,6 +127,11 @@
     cursor: pointer;
 }
 
+.attribution, .attribution>a {
+    color: #000;
+    text-align: center;
+}
+
 
 @media (max-width:500px) {
     * {
@@ -130,7 +140,7 @@
     
     
     .card {
-        max-width: 320px;
+        width: 320px;
         height: 70%;
         
     }
