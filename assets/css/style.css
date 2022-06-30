@@ -123,7 +123,7 @@
 
 .author-side {
     display: flex;
-    margin-top: 2.8rem;
+    margin-top: 2rem;
     align-items: center;
     justify-content: flex-start;
     font-size: 14px;
@@ -158,7 +158,14 @@
 
     .author-side {
         font-size: 5px;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
 }
 
+@media (max-width:375px) {
+    .card {
+        width: 300px;
+        height: 95%;
+        
+    }
+}
