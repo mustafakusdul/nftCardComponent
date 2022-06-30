@@ -58,8 +58,8 @@
 
 .eye {
     position: absolute;
-    top: 44%;
-    left: 46%;
+    top: 43%;
+    left: 43%;
     display: none;
 }
 
@@ -90,14 +90,20 @@
     margin-top: 25px;
 }
 
+.card-title:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
 .description {
     margin-top: 1.5rem;
+    color: var(--softBlue);
 }
 
 .price {
     margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
@@ -111,14 +117,19 @@
     color: var(--cyan);
 }
 
+.price-right {
+    color: var(--softBlue);
+}
+
 .author-side {
     display: flex;
-    margin-top: .8rem;
+    margin-top: 2.8rem;
     align-items: center;
     justify-content: flex-start;
+    font-size: 14px;
 }
 .avatar {
-    width: 4rem;
+    width: 3rem;
     margin-right: .5rem;
 }
 
@@ -143,6 +154,11 @@
         width: 320px;
         height: 70%;
         
+    }
+
+    .author-side {
+        font-size: 5px;
+        margin-top: 4rem;
     }
 }
 
